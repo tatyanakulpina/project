@@ -1,0 +1,123 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;  /*Толщина текста 400=нормал */
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+:root{
+    --accent-color:#F7654A;
+    --dark-color:#404149;
+    --gray-color:#999999;
+    --white-color:#FFFFFF;
+    --bg-color:#E5E5E5;
+}
+.text_h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.text_h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.text_h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.text_p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.text_p_reviews{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+.header {
+    min-height: 740px;
+    background-image: url(../img/first-screen-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header__title {
+    padding-top: 20px;
+    margin-bottom: 112px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header__burger {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0;
+    background-color: var(--accent-color);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__burger_line {
+    display: block;
+    width: 21px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+.header__burger_line:last-child{
+    margin-bottom: 0;
+}
+h1{
+font-weight: 500;
+font-size: 64px;
+line-height: 95px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+text-align: center;
+margin: 0 auto 17px;
+max-width: 734px;
+color:var(--white-color)
+}
+h4{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+text-transform: uppercase;
+text-align: center;
+margin: 0 auto;
+max-width: 734px;
+color:var(--white-color)
+}
